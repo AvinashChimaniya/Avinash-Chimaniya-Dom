@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  font-weight: 200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wcard{
+    padding: 2px;
+    /* padding-left: 8px; */
+    height: 460px;
+    width: 310px;
+    border-radius: 14px;
+    border: 1px solid rgb(12, 211, 12);
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+
+.wbhead{
+   font-size: 16px;
+   
+   background-color: white;
+   height: 45px;
+   width: 100%;
+   position: absolute;
+   display: flex;
+   align-items: center;
+ 
+}
+
+.wbhead h2{
+    
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.whead{
+    padding-top: 12px;
+}
+
+.whead h2{
+    font-weight: 200;
+    font-size: 23px;
+}
+
+.wsast h3{
+    pointer-events: none;
+}
+
+.wsast h4{
+    pointer-events: none;
+}
+
+.wsas{
+
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72, 255, 0);
+    padding: 2px;
+    border-radius: 50%;
+    background-size: cover;
+    
+}
+
+.wsast h4{
+font-size: 12px;
+font-weight: 12;
+
+}
+
+.wsast{
+    pointer-events: none;
+}
+
+.wsas img{
+    height: 100%;
+    width: 100%;
+    border: .5px solid white;
+    border-radius: 50%;
+}
+
+.wid{
+    margin-top: 12px;
+    display: flex;
+   align-items: center;
+   gap: 12px;
+   font-size: 15px;
+ 
+}
+
+.widd{
+    display: flex;
+    align-items: center;
+   gap: 12px;
+   margin-top: 12px;
+   font-size: 15px;
+   pointer-events: none;
+   
+}
+
+.widd h4{
+    font-weight: 140;
+}
+
+
+.rece{
+    margin-top: 12px;
+}
+
+.wcar{
+    height: 100%;
+    overflow: auto;
+    
+}
+.wcar::-webkit-scrollbar{
+    display: none;
+}
+
+.sati{
+    background-color: blanchedalmond;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 12;
+    display: none;
+    background-size: cover;
+}
+
+.sati img{
+    height: 100%;
+    width: 100%;
+}
+
+.line{
+    height: 1.8px;
+    width: 100%;
+    background-color: black;
+    border-radius: 12px;
+}
+.cl{
+    height: 100%;
+    width: 10%;
+    background-color: white;
+    border-radius: 12px;
+}

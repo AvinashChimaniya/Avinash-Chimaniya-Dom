@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 480px;
+    width: 310px;
+    border-radius: 12px;
+    border: 2px solid rgb(0, 183, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iph{
+
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.iph h2{
+    padding-top: 22px;
+}
+
+.iph h3{
+    padding-top: 42px;
+}
+
+.wimage{
+    height: 140px;
+    width: 190px;
+    background-color: violet;
+    border-radius: 13px;
+    padding: 2px;
+    background-size: cover;
+}
+
+.wimage img{
+    height: 100%;
+    width: 100%;
+    border-radius: 13px;
+}
+
+.wipl h2{
+    margin-top: 23px;
+    margin-bottom: 7px;
+}
+
+.wipl{
+padding: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.bttn{
+    height: 40px;
+    width: 120px;
+    border-radius: 12px;
+    border: 2px solid green;
+}
+
+.winh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    height: 50px;
+    
+}
+

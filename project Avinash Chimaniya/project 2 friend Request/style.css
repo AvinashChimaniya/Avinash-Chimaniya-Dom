@@ -1,0 +1,90 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 460px;
+    width: 310px;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 0, 55);
+    padding: 12px;
+
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    padding: 3px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading h4{
+    font-weight: 200;
+}
+
+.fprofile{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: orange;
+    padding: 3px;
+}
+
+.fprofile img{
+height: 100%;
+width: 100%;
+border-radius: 50%;
+}
+
+.profile{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.profile h2{
+    padding-top: 13px;
+    color: rgb(255, 0, 128);
+    font-weight: 600;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.freq{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 21px;
+    gap: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    background-color: rgb(255, 145, 0);
+    height: 45px;
+    width: 125px;
+    border-radius: 12px;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.dark{
+  
+    background-color: rgb(18, 18, 58);
+    color: rgb(24, 210, 216);
+}
+
+.light{
+    background-color: rgb(24, 210, 216);
+    color: rgb(18, 18, 58);
+}
+
+button{
+    margin-top: 12px;
+    width: 170px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: rgb(24, 210, 216);
+    color: rgb(18, 18, 58);
+    font-weight: 820;
+
+}

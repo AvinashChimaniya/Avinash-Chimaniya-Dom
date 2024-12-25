@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 160px;
+    width: 460px;
+    border-radius: 16px;
+    border: 2px solid rgb(0, 119, 255) ;
+}
+
+.dinfo{
+
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+height: 70px;
+overflow: hidden;
+}
+
+.dinfo h4{
+font-weight: 300;
+}
+
+.ding{
+
+margin-left: 12px;
+height: 24px;
+width: 95%;
+border-radius: 12px;
+background-color: gray;
+
+}
+
+.inp{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+button{
+    margin-top: 14px;
+    margin-left: 12px;
+    height: 32px;
+    width: 98px;
+    border-radius: 12px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    padding: 3px;
+}
